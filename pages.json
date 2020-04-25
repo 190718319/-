@@ -1,0 +1,123 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},{
+			"path": "pages/index/girdNav/news",
+			"style": {
+				"navigationBarTitleText": "旅游资讯"
+			}
+		},{
+			"path": "pages/index/girdNav/newsDeteil",
+			"style": {
+				"navigationBarTitleText": "资讯详情"
+			}
+		},{
+			"path": "pages/guide/guide",
+			"style": {
+				"navigationBarTitleText": "推荐游记攻略"
+			}
+		},{
+			"path": "pages/destination/destination",
+			"style": {
+				"navigationBarTitleText": "目的地"
+			}
+		},{
+			"path": "pages/QA/QA",
+			"style": {
+				"navigationBarTitleText": "问答"
+			}
+		},{
+			"path": "pages/QA/QAdetail/QAdetail",
+			"style": {
+				"navigationBarTitleText": "问答詳情"
+			}
+		},{
+			"path": "pages/QA/QAdetail/newQA",
+			"style": {
+				"navigationBarTitleText": "提问"
+			}
+		},{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},{
+			"path": "pages/my/user/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationBarBackgroundColor":"#f0f3f4"
+			}
+		},{
+			"path": "pages/my/user/register",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"navigationBarBackgroundColor":"#f0f3f4"
+			}
+		},{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		},{
+			"path": "pages/jingdianDetail/jingdianDetail",
+			"style": {
+				"navigationBarTitleText": "景点详情"
+			}
+		},{
+			"path": "pages/shopDetail/shopDetail",
+			"style": {
+				"navigationBarTitleText": "商品详情"
+			}
+		},{
+			"path": "pages/my/collection/collection",
+			"style": {
+				"navigationBarTitleText": "收藏"
+			}
+		},{
+			"path": "pages/my/order/order",
+			"style": {
+				"navigationBarTitleText": "订单"
+			}
+		},{
+			"path": "pages/shopDetail/pay/pay",
+			"style": {
+				"navigationBarTitleText": "支付"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"list":[
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/image2/shouye.png",
+				"selectedIconPath": "static/image2/shouye.png",
+				"text": "首页"
+			},{
+				"pagePath": "pages/guide/guide",
+				"iconPath": "static/image2/shouye.png",
+				"selectedIconPath": "static/image2/shouye.png",
+				"text": "攻略"
+			},{
+				"pagePath": "pages/QA/QA",
+				"iconPath": "static/image2/shouye.png",
+				"selectedIconPath": "static/image2/shouye.png",
+				"text": "问答"
+			},{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/image2/shouye.png",
+				"selectedIconPath": "static/image2/shouye.png",
+				"text": "我的"
+			}
+		]
+	}
+}
